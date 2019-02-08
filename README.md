@@ -6,6 +6,7 @@ DIRECTV -> M3U8 Grabber (DRM-Free channels ONLY)
 - Open the DIRECTIPTV.php file and add your cookies (More info in the php file)
 - Now going to www.example.com/path/to/DIRECTV.php?chid={channelID Number} will redirect to a working M3U playable stream
 - You can make it work by logging in if you add in those steps to curl but the cookies take months to expire so no point
+- Links gotten from this script last roughly 5-10 minutes before not accepting new connections. This is why its PHP so you can just host it as if its a webpage and ez pz hotlink
 
 # Confirmed Working CHID's as of 8th of February 2019
 - Disney XD HD: 8397
